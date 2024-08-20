@@ -51,7 +51,6 @@ resource "google_cloud_run_v2_service" "default" {
   labels = {
           environment = "development"
           app_type = "fastapi"
-          cost_center = "219834"
           irisk_id = "3459892"
           app_name = local.app_name
       }
