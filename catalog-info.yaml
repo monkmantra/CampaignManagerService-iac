@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CampaignManagerService-infra
+  annotations:
+    "backstage.io/project": "png-gcp-learning-poc"
+    "backstage.io/cloud-run": "CampaignManagerService"
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: monkmantra/CampaignManagerService-iac
+  tags:
+    - de-ims-infra
+spec:
+  type: infra
+  owner: user:de-ims
+  lifecycle: experimental

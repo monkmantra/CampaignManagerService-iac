@@ -1,0 +1,5 @@
+site_name: "CampaignManagerService - IaC"
+site_description: "Infra as Code to provision GCP resources and deploy ***CampaignManagerService***'s Docker image"
+
+nav:
+  - Home: index.md
